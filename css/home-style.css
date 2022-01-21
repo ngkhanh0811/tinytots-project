@@ -73,6 +73,13 @@ body{
     animation: In 500ms;
     position: relative;
 }
+.dropdown-item:hover{
+    color: white;
+    background-color: #05c7f2;
+}
+#navbarDropdown:hover, .dropdown-menu:hover{
+    color: #05c7f2;
+}
 .nav-link{
     font-size: 18px;
     text-transform: uppercase;
@@ -299,6 +306,7 @@ body{
 }
 footer{
     color: white;
+    margin-bottom: -100px;
 }
 footer a:hover{
     text-decoration: none;
@@ -379,4 +387,44 @@ footer a{
 iframe{
     width: 150px;
     height: 120px;
+}
+.image-left{
+    float: left;
+}
+.image{
+    padding-bottom: 50px;
+}
+.image-left img{
+    width: 700px;
+    transition: all 0.3s;
+}
+.image-left:hover img{
+    transform: scale(1.03);
+}
+.one img{
+    width: 750px;
+    transition: all 0.3s;
+}
+.one:hover img{
+    transform: scale(1.03);
+}
+
+.two img{
+    width: 750px;
+    transition: all 0.3s;
+}
+.two:hover img{
+    transform: scale(1.03);
+}
+
+.carousel-caption{
+    color: #05c7f2;
+}
+
+.list-group-item{
+    color: black;
+}
+.list-group-item:hover{
+    color: white;
+    background-color: #05c7f2;
 }
