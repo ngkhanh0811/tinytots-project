@@ -293,7 +293,8 @@ body{
     transition:transform .5s ease-in;
 }
 .maps{
-    width: 150px;
+    margin-top: 10px;
+    width: 280px;
     height: 120px;
 }
 footer{
