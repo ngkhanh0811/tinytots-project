@@ -74,8 +74,9 @@ body{
     position: relative;
 }
 .dropdown-item:hover{
-    color: white;
-    background-color: #05c7f2;
+    color: #05c7f2;
+    border-bottom: #05c7f2 1px solid;
+    transition: all ease-in-out 0.3s;
 }
 #navbarDropdown:hover, .dropdown-menu:hover{
     color: #05c7f2;
@@ -265,8 +266,8 @@ body{
     text-transform: capitalize;
 }
 .to-top:hover{
-    color:black;
-    border-color:black;
+    color:#05c7f2;
+    border-color:#05c7f2;
 }
 .to-top:hover:before {
      transform: rotate(360deg);
@@ -282,7 +283,7 @@ body{
     position: sticky;
     bottom: 40px;
     right: 10px;
-    color: black;
+    color: #05c7f2;
 }
 .to-top:before{
     content:'▲';
@@ -307,6 +308,7 @@ body{
 footer{
     color: white;
     margin-bottom: -100px;
+    clear: both;
 }
 footer a:hover{
     text-decoration: none;
@@ -427,4 +429,53 @@ iframe{
 .list-group-item:hover{
     color: white;
     background-color: #05c7f2;
+    transition: all ease-in-out 0.3s;
+}
+.new-arrival{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #eaece9;
+    margin-bottom: 50px;
+    height: 670px;
+}
+.new-arrival .title{
+    margin-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.new-arrival .card{
+    margin-right: 40px;
+    margin-left: 35px;
+}
+.none{
+    margin-top: 70px;
+    z-index: -9999;
+}
+.best-seller .title{
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.onee{
+    margin-bottom: 30px;
+}
+.twoo{
+    margin-bottom: 40px;
+}
+.see-more{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.btn{
+    border-radius: 0px;
+    text-align: center;
+    border: #05c7f2 1px solid;
+}
+.see-more .btn:hover{
+    color: white;
+    background-color: #05c7f2;
+    transition: all ease-in-out 0.4s;
+}
+.end-index{
+    text-align: center;
 }
