@@ -2,7 +2,7 @@
 body{
     color: #404040;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: Titan One, sans-serif;
     background-color: #fafcf9;
 }
 .inner-header{
@@ -67,11 +67,14 @@ body{
     display: block;
 }
 @keyframes In {
-    from{top: 50px} to {top: 100%}
+    from{top: 60px} to {top: 45px}
 }
 .dropdown-menu{
     animation: In 500ms;
     position: relative;
+    transition: ease-in-out 0.4s;
+    border: none;
+    border-radius: 0px;
 }
 .dropdown-item:hover{
     color: #05c7f2;
@@ -82,8 +85,7 @@ body{
     color: #05c7f2;
 }
 .nav-link{
-    font-size: 18px;
-    text-transform: uppercase;
+    font-size: 20px;
     margin-right: 20px;
 }
 .collapse{
@@ -101,7 +103,6 @@ body{
     width: 260px;
 }
 .nav-item {
-    background:;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -143,7 +144,6 @@ body{
     color: #ffffff;
     font-size: 16px;
 }
-
 .nav-item .nav-depart .depart-btn span {
     font-size: 14px;
     font-weight: 700;
@@ -319,7 +319,7 @@ footer a{
 }
 .footer-section {
     background-image: url("../img-source/footer.jpg");
-    margin-left: -150px;
+    margin-left: -80px;
     bottom: 0;
 }
 .col-lg-2 h5{
@@ -381,7 +381,7 @@ footer a{
     z-index: -1;
 }
 .logofooter{
-    margin-left: 300px;
+    margin-left: 250px;
 }
 .footer-widget {
     margin-bottom: 30px;
@@ -478,4 +478,16 @@ iframe{
 }
 .end-index{
     text-align: center;
+    margin-bottom: 50px;
+}
+.container .align-items-start{
+    margin-left: 30px;
+}
+.onee .card{
+    border: none;
+    background-color: #fafcf9;
+}
+.twoo .card{
+    border: none;
+    background-color: #fafcf9;
 }
