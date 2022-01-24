@@ -87,7 +87,7 @@ body{
     color: #05c7f2;
 }
 .nav-link{
-    font-size: 20px;
+    font-size: 16px;
     margin-right: 20px;
 }
 .collapse{
@@ -96,11 +96,8 @@ body{
 .form-control{
     width: 300px;
 }
-.dropdown-toggle{
-    font-size: 15px;
-}
 .category-list{
-    font-size: 20px;
+    font-size: 14px;
     color: white;
     width: 260px;
 }
@@ -116,7 +113,9 @@ body{
 .nav{
     margin-left: 200px;
 }
-
+.nav-item .nav-depart .depart-btn .depart{
+    border-radius: 30px;
+}
 .nav-item .nav-depart .depart-btn {
     background: #05c7f2;
     color: #ffffff;
@@ -139,12 +138,12 @@ body{
     top: 13px;
     content: "";
     font-family: FontAwesome;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .nav-item .nav-depart .depart-btn i {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
 }
 .nav-item .nav-depart .depart-btn span {
     font-size: 14px;
@@ -298,6 +297,7 @@ body{
     width: 280px;
     height: 120px;
 }
+
 footer{
     color: #252525;
     margin-bottom: -100px;
@@ -324,19 +324,19 @@ footer a{
 .col-lg-2 h5{
     margin-bottom: 10px;
 }
+.footer-section {
+    padding-left: -50px;
+}
 .footer-section ul li{
     margin-bottom: 10px;
     margin-right: 20px;
 }
-
 .footer-section .logofooter{
-    margin-left: 90px;
+    margin-left: 180px;
 }
-
 .footer-left {
     margin-bottom: 30px;
     color:white;
-    margin-left: -100px;
 }
 
 .footer-left ul li {
@@ -389,16 +389,51 @@ footer a{
     overflow: hidden;
     margin-left: 45px;
 }
-.feedback h5{
-    position: relative;
-    display: inline-block;
-    z-index: 99;
-}
 .feedback .feedback2, .feedback .feedback3, .feedback .feedback1{
     transition: all 0.6s;
 }
 .feedback .feedback2:hover, .feedback .feedback3:hover, .feedback .feedback1:hover {
     transform: scale(1.05);
+}
+.feedback .feedback3{
+    z-index: 4;
+    position: relative;
+}
+.feedback .toy-brand{
+    position: absolute;
+    padding-top: 320px;
+    padding-left: 145px;
+    z-index: 5;
+    color: black;
+}
+.feedback .toy-brand p{
+    text-align: center;
+    border-bottom: black 2px solid;
+    width: 100px;
+    cursor: pointer;
+}
+.feedback .toy-brand p:hover{
+    color: #05c7f2;
+    border-bottom: #05c7f2 2px solid;
+    transition: all ease-in-out 0.4s;
+}
+.feedback .hygiene-brand p{
+    margin-left: 60px;
+    border-bottom: black 2px solid;
+    width: 100px;
+    cursor: pointer;
+}
+.feedback .hygiene-brand p:hover{
+    color: #05c7f2;
+    border-bottom: #05c7f2 2px solid;
+    transition: all ease-in-out 0.4s;
+}
+.feedback .hygiene-brand{
+    position: absolute;
+    padding-top: 320px;
+    padding-left: 90px;
+    z-index: 5;
+    color: black;
 }
 .logofooter {
     margin-left: 250px;
@@ -424,7 +459,7 @@ iframe{
     transform: scale(1.03);
 }
 .one img{
-    width: 750px;
+    width: 780px;
     transition: all 0.3s;
 }
 .one:hover img{
@@ -432,7 +467,7 @@ iframe{
 }
 
 .two img{
-    width: 750px;
+    width: 780px;
     transition: all 0.3s;
 }
 .two:hover img{
@@ -454,9 +489,9 @@ iframe{
 .new-arrival{
     margin-top: 50px;
     text-align: center;
-    background-color: #eaece9;
+    background-color: #E3F7FF;
     margin-bottom: 50px;
-    height: 850px;
+    height: 750px;
 }
 .new-arrival .title{
     margin-bottom: 40px;
@@ -467,7 +502,8 @@ iframe{
     margin-right: 40px;
     margin-left: 35px;
     border: 0px;
-    height: 500px;
+    height: 430px;
+    border-radius: 30px;
 }
 .new-arrival .card-title{
     /*border-top: #80817f 1px solid;*/
@@ -509,6 +545,7 @@ iframe{
     width: 200px;
     color: white;
     background-color: #252525;
+    border-radius: 20px;
 }
 .select:hover{
     background-color: #05c7f2;
@@ -527,13 +564,13 @@ iframe{
     border: none;
     background-color: #fafcf9;
     border-radius: 30px;
-    height: 500px;
+    height: 450px;
 }
 .twoo .card{
     border: none;
     background-color: #fafcf9;
     border-radius: 30px;
-    height: 500px;
+    height: 450px;
 }
 .d-flex .btn{
     border-radius: 50px;
