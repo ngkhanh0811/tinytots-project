@@ -2,7 +2,7 @@
 body{
     color: #404040;
     font-weight: 400;
-    font-family: Titan One, sans-serif;
+    font-family: Roboto, sans-serif;
     background-color: #fafcf9;
 }
 .inner-header{
@@ -79,8 +79,8 @@ body{
     border-radius: 0px;
 }
 .dropdown-item:hover{
-    color: #05c7f2;
     border-bottom: #05c7f2 1px solid;
+    color: #05c7f2;
     transition: all ease-in-out 0.3s;
 }
 #navbarDropdown:hover, .dropdown-menu:hover{
@@ -311,8 +311,8 @@ footer a:hover{
 footer a{
     color: #80817f;
 }
-.footer-section {
-    background-color: #eaece9;
+. footer-section {
+    background-image: url("../img-source/footer.png");
     margin-left: -80px;
     bottom: 0;
 }
@@ -379,7 +379,23 @@ footer a{
     transition: 0.3s;
     z-index: -1;
 }
-.logofooter{
+.feedback {
+    margin-top: 50px;
+    overflow: hidden;
+    margin-left: 45px;
+}
+.feedback h5{
+    position: relative;
+    display: inline-block;
+    z-index: 99;
+}
+.feedback .feedback2, .feedback .feedback3, .feedback .feedback1{
+    transition: all 0.6s;
+}
+.feedback .feedback2:hover, .feedback .feedback3:hover, .feedback .feedback1:hover {
+    transform: scale(1.05);
+}
+.logofooter {
     margin-left: 250px;
 }
 .footer-widget {
@@ -454,6 +470,7 @@ iframe{
 .new-arrival .card-body{
     background-color: #eaece9;
     text-align: left;
+    margin-left: -12px;
 }
 .none{
     margin-top: 70px;
@@ -481,6 +498,17 @@ iframe{
     color: white;
     background-color: #05c7f2;
     transition: all ease-in-out 0.4s;
+}
+.select{
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: #252525;
+}
+.select:hover{
+    background-color: #05c7f2;
+    transition: all ease-in-out 0.3s;
+    border: #05c7f2;
 }
 .end-index{
     text-align: center;
