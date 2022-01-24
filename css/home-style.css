@@ -302,6 +302,8 @@ footer{
     color: #252525;
     margin-bottom: -100px;
     clear: both;
+    background-image: url("../img-source/footer.png");
+    padding-top: 15px;
 }
 footer a:hover{
     text-decoration: none;
@@ -311,9 +313,7 @@ footer a:hover{
 footer a{
     color: #80817f;
 }
-. footer-section {
-    background-image: url("../img-source/footer.png");
-    margin-left: -80px;
+.footer-section {
     bottom: 0;
 }
 .user, .cart{
@@ -329,9 +329,14 @@ footer a{
     margin-right: 20px;
 }
 
+.footer-section .logofooter{
+    margin-left: 90px;
+}
+
 .footer-left {
     margin-bottom: 30px;
     color:white;
+    margin-left: -100px;
 }
 
 .footer-left ul li {
