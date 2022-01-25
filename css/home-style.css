@@ -296,6 +296,7 @@ body{
     margin-top: 10px;
     width: 280px;
     height: 120px;
+    margin-left: -90px;
 }
 
 footer{
@@ -325,18 +326,27 @@ footer a{
     margin-bottom: 10px;
 }
 .footer-section {
-    padding-left: -50px;
+    padding-left: -40px;
 }
 .footer-section ul li{
     margin-bottom: 10px;
     margin-right: 20px;
 }
 .footer-section .logofooter{
-    margin-left: 180px;
+    margin-left: 60px;
 }
 .footer-left {
+    margin-left: -150px;
     margin-bottom: 30px;
     color:white;
+    cursor: pointer;
+}
+.footer-left ul li:hover{
+    color: #05c7f2;
+    transition: all ease-in-out 0.4s;
+}
+.footer-section .newslatter-item{
+    margin-left: -90px;
 }
 
 .footer-left ul li {
@@ -347,7 +357,7 @@ footer a{
 }
 
 .footer-left .footer-social {
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .footer-left .footer-social a {
@@ -439,6 +449,7 @@ footer a{
     margin-left: 250px;
 }
 .footer-widget {
+    margin-left: -120px;
     margin-bottom: 30px;
 }
 iframe{
@@ -505,11 +516,18 @@ iframe{
     height: 430px;
     border-radius: 30px;
 }
+.new-arrival .card:hover{
+    box-shadow: 0.5rem 1rem rgba($black, .15);
+}
 .new-arrival .card-title{
     /*border-top: #80817f 1px solid;*/
 }
+.new-arrival .card-img-top{
+    background-color:;
+}
 .new-arrival .card-body{
-    background-color: #eaece9;
+    border-top: black 1px solid;
+    background-color: #white;
     text-align: left;
     margin-left: -12px;
 }
@@ -544,8 +562,9 @@ iframe{
     height: 40px;
     width: 200px;
     color: white;
-    background-color: #252525;
+    background-color: #80817f;
     border-radius: 20px;
+    border: 1px solid #80817f;
 }
 .select:hover{
     background-color: #05c7f2;
@@ -556,6 +575,10 @@ iframe{
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
+    transition: all ease-in-out 0.4s;
+}
+.end-index:hover{
+    transform: scale(1.05);
 }
 .container .align-items-start{
     margin-left: 35px;
