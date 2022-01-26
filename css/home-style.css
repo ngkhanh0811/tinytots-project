@@ -114,7 +114,7 @@ body{
     margin-left: 200px;
 }
 .nav-item .nav-depart .depart-btn .depart{
-    border-radius: 30px;
+    font-family: Titan One;
 }
 .nav-item .nav-depart .depart-btn {
     background: #05c7f2;
