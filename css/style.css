@@ -149,6 +149,10 @@ span.current-price {
     color: #80817f;
     font-weight: 650;
 }
+.sidebar-list-item:hover >a{
+    color: #05c7f2;
+    transition: all ease-in-out 0.3s;
+}
 .item-end {
     border: unset;
     margin: 0 10px 0 10px;
