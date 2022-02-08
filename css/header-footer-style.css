@@ -306,6 +306,7 @@ footer{
     clear: both;
     background-image: url("../img-source/footer.png");
     padding-top: 15px;
+    font-weight: 600;
 }
 footer a:hover{
     text-decoration: none;
