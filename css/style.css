@@ -21,6 +21,9 @@
     margin: 0 auto;
     background-color: unset;
 }
+.breadcrumb .breadcrumb-item a:hover{
+    color: #6c757d;
+}
 .content {
     width: 100%;
     display: flex;
@@ -90,6 +93,13 @@ div.details {
     display: none;
     margin-top: -2px;
 }
+.details a{
+    color: black;
+}
+.details a:hover{
+    color: #05c7f2;
+    transition: all ease-in-out 0.3s;
+}
 .product-name {
     width: 100%;
     height: 20%;
@@ -126,6 +136,7 @@ span.current-price {
     margin-bottom: 20px;
     border-bottom: 1px solid lightgrey;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 .sidebar-item {
     width: 90%;
@@ -135,6 +146,8 @@ span.current-price {
     margin-top: 20px;
     margin-left: 10px;
     border-bottom: 1px solid lightgrey;
+    margin: 20px 10px 0 10px;
+    padding-bottom: 10px;
 }
 .sidebar-list-item, .list-group-item {
     margin: 20px 10px 0 10px;
@@ -161,15 +174,13 @@ span.current-price {
     margin-top: 20px;
     border: 1px solid lightgrey;
 }
-.page-next {
+.pagination {
     text-align: center;
     margin-top: 20px;
-    justify-content: space-between;
+    margin-left: 340px;
 }
-.page-number li {
+.page-item .page-link li {
     list-style-type: none;
-    display: inline-block;
-    margin-right: 5px;
 }
 @-webkit-keyframes move-to-right {
     to{
@@ -188,12 +199,22 @@ div.img-item:hover div.details {
 }
 div.add-to-wishlist, div.quick-view, div.compare-wrap {
     position: relative;
-
 }
 i.quick-view-icon, i.compare-icon, i.wishlist-icon {
     display: none;
-    position: absolute;
+    position: relative;
     top: 20px;
+    color: black;
+}
+i.quick-view-icon:hover, i.compare-icon:hover, i.wishlist-icon:hover{
+    color: #05c7f2;
+    transition: all ease-in-out 0.3s;
+}
+i.quick-view-icon{
+    margin-left: -40px;
+}
+i.compare-icon{
+    margin-left: -10px;
 }
 div.img-item:hover i.quick-view-icon,
 div.img-item:hover i.compare-icon,
