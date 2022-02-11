@@ -10,6 +10,13 @@
     text-align: center;
     align-items: center;
 }
+.page-top{
+    top: 10px;
+    position: sticky;
+    height: 200px;
+    margin-bottom: 10px;
+    z-index: 4;
+}
 .seek{
     color: #e9ecef;
     font-size: 45px;
@@ -62,7 +69,7 @@ span.onsale {
     position: absolute;
     z-index: 9;
     transform: rotate(270deg);
-    background-color: #8dc63f;
+    background-color: #24ACF5;
     color: #fff;
     font-size: 12px;
     font-weight: 400;
@@ -78,10 +85,10 @@ span.onsale {
 span.onsale::after {
     content: "";
     position: absolute;
-    color: #8dc63f;
+    color: #24ACF5;
     border: solid 12px transparent;
-    border-left-color: #8dc63f;
-    border-right-color: #8dc63f;
+    border-left-color: #24ACF5;
+    border-right-color: #24ACF5;
     transform: rotate(270deg);
     backface-visibility: hidden;
     left: -12px;
@@ -95,9 +102,10 @@ div.details {
 }
 .details a{
     color: black;
+    font-weight: 600;
 }
 .details a:hover{
-    color: #05c7f2;
+    color: #24ACF5;
     transition: all ease-in-out 0.3s;
 }
 .product-name {
@@ -131,6 +139,8 @@ span.current-price {
     margin-top: 15px;
     border: 1px solid lightgrey;
     height: 450px;
+    top: 20px;
+    position: sticky;
 }
 .sidebar-title {
     margin-bottom: 20px;
@@ -163,7 +173,7 @@ span.current-price {
     font-weight: 650;
 }
 .sidebar-list-item:hover >a{
-    color: #05c7f2;
+    color: #24ACF5;
     transition: all ease-in-out 0.3s;
 }
 .item-end {
@@ -207,7 +217,7 @@ i.quick-view-icon, i.compare-icon, i.wishlist-icon {
     color: black;
 }
 i.quick-view-icon:hover, i.compare-icon:hover, i.wishlist-icon:hover{
-    color: #05c7f2;
+    color: #24ACF5;
     transition: all ease-in-out 0.3s;
 }
 i.quick-view-icon{

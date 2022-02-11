@@ -90,12 +90,12 @@ a {
     border-radius: 10px;
 }
 .dropdown-item:hover{
-    border-bottom: #05c7f2 1px solid;
-    color: #05c7f2;
+    border-bottom: #24ACF5 1px solid;
+    color: #24ACF5;
     transition: all ease-in-out 0.3s;
 }
 #navbarDropdown:hover, .dropdown-menu:hover{
-    color: #05c7f2;
+    color: #24ACF5;
 }
 .nav-link{
     font-size: 16px;
@@ -128,14 +128,14 @@ a {
     color: #404040;
 }
 .cart:hover, .user:hover{
-    color: #05c7f2;
+    color: #24ACF5;
     transition: all ease-in-out 0.3s;
 }
 .nav-item .nav-depart .depart-btn .depart{
     font-family: Titan One;
 }
 .nav-item .nav-depart .depart-btn {
-    background: #05c7f2;
+    background: #24ACF5;
     color: #ffffff;
     padding: 14px 84px 14px 18px;
     cursor: pointer;
@@ -143,7 +143,7 @@ a {
     margin-right: 60px;
 }
 .nav-item .nav-depart .depart-btn ul li:hover{
-    background: #05c7f2;
+    background: #24ACF5;
     color: #ffffff;
     transition: all ease-in-out 0.3s;
 }
@@ -197,7 +197,7 @@ a {
 }
 
 .nav-item .nav-depart .depart-btn .depart-hover li.active a {
-    color: #05c7f2;
+    color: #24ACF5;
 }
 
 .nav-item .nav-depart .depart-btn .depart-hover li a {
@@ -213,7 +213,7 @@ a {
 }
 
 .nav-item .nav-depart .depart-btn .depart-hover li a:hover {
-    color: #05c7f2;
+    color: #24ACF5;
 }
 
 .nav-item .nav-menu {
@@ -307,7 +307,7 @@ footer{
 }
 footer a:hover{
     text-decoration: none;
-    color: #05c7f2;
+    color: #24ACF5;
     transition: all ease-in-out 0.4s;
 }
 footer a{
@@ -342,7 +342,7 @@ footer a{
     cursor: pointer;
 }
 .footer-left ul li:hover{
-    color: #05c7f2;
+    color: #24ACF5;
     transition: all ease-in-out 0.4s;
 }
 .footer-section .newslatter-item{
@@ -384,7 +384,7 @@ footer a{
     top: 0;
     height: 100%;
     width: 100%;
-    background: #05c7f2;
+    background: #24ACF5;
     content: "";
     border-radius: 50%;
     opacity: 0;
@@ -409,8 +409,8 @@ footer a{
     border: #80817f 1px solid;
 }
 .newslatter-item .btn:hover{
-    background-color: #05c7f2;
-    border: #05c7f2;
+    background-color: #24ACF5;
+    border: #24ACF5;
 }
 iframe{
     width: 150px;
@@ -420,7 +420,7 @@ iframe{
 /*To-top style*/
 
 .to-top:hover{
-    border-color:#05c7f2;
+    border-color:#24ACF5;
     transition: all ease-in-out 0.4s;
 }
 .to-top{
@@ -432,7 +432,7 @@ iframe{
     position: sticky;
     bottom: 40px;
     right: 10px;
-    color: #05c7f2;
+    color: #24ACF5;
 }
 .to-top:before{
     background-image: url("../img-source/arrow.png");
