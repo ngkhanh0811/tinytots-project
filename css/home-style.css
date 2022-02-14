@@ -31,9 +31,9 @@ body{
 .header-top .ht-right{
     float: right;
     font-size: 16px;
-    padding-top: 7px;
+    padding-top: 4px;
     padding-bottom: 15px;
-    margin-right: -40px;
+    margin-right: -80px;
 }
 .ht-right .user:hover, .ht-right .cart:hover{
     color: #577C8A;

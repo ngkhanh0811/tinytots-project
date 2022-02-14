@@ -147,6 +147,7 @@ span.current-price {
     border-bottom: 1px solid lightgrey;
     padding-top: 20px;
     padding-bottom: 10px;
+    font-weight: 550;
 }
 .sidebar-item {
     width: 90%;
@@ -158,6 +159,7 @@ span.current-price {
     border-bottom: 1px solid lightgrey;
     margin: 20px 10px 0 10px;
     padding-bottom: 10px;
+    font-weight: 550;
 }
 .sidebar-list-item, .list-group-item {
     margin: 20px 10px 0 10px;

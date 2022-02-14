@@ -33,9 +33,8 @@ a {
 .header-top .ht-right{
     float: right;
     font-size: 16px;
-    padding-bottom: 28px;
-    padding-right: 48px;
-    margin-top: -13px;
+    padding-right: 13px;
+    padding-top: 4px;
 }
 .cart{
     color: #80817f;
