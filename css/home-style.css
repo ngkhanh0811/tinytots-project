@@ -52,6 +52,50 @@ form input{
     color: #577C8A;
     transition: all ease-in-out 0.3s;
 }
+.inner-header{
+    margin-bottom: 50px;
+}
+.header-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    height: 40px;
+    color: #fafcf9;
+    background-color: #577C8A;
+}
+
+.header-top .ht-right{
+    float: right;
+    font-size: 16px;
+    padding-right: 13px;
+    padding-top: 8px;
+}
+.header-top .ht-left {
+    float: left;
+    margin-left: -60px;
+}
+
+.header-top .ht-left .mail-service {
+    font-size: 16px;
+    float: left;
+    border-right: 1px solid #E5E5E5;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+
+.header-top .ht-left .mail-service i {
+    margin-right: 5px;
+}
+.header-top .ht-left .phone-service {
+    float: right;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+}
 /*Nav*/
 .nav-item{
     width: 110px;
