@@ -1,12 +1,8 @@
 
 body{
-    color: black !important;
     font-weight: 400;
     font-family: Roboto, sans-serif;
     background-color: #fafcf9;
-}
-:root{
-    color: black !important;
 }
 
 /*Header Style*/
@@ -32,25 +28,27 @@ form input{
 .user, .cart{
     color: black;
     font-weight: 600;
+    cursor: pointer;
 }
 .dropdown:hover .dropdown-menu{
     display: block;
     top: 45px;
 }
 @keyframes In {
-    from {top: 60px} to {top: 45px}
+    from {top: 100px} to {top: 46px}
 }
 .dropdown-menu{
     animation: In 500ms;
     position: relative;
-    transition: all ease-in-out 0.4s;
+    transition: all ease-in 0.5s;
     border: none;
-    border-radius: 10px;
+    background-color: #fafcf9;
 }
 .dropdown-item:hover{
     border-bottom: #577C8A 1px solid;
     color: #577C8A;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in 0.5s;
+    background-color: #fafcf9;
 }
 .inner-header{
     margin-bottom: 50px;
@@ -102,7 +100,6 @@ form input{
     margin-bottom: -10px;
 }
 /*---------*/
-/*---------------------*/
 
 /*Footer Style*/
 
@@ -241,6 +238,7 @@ iframe{
     margin-top: 50px;
     overflow: hidden;
     margin-left: 45px;
+    margin-bottom: 28px;
 }
 .feedback .feedback2, .feedback .feedback3, .feedback .feedback1{
     transition: all 0.6s;
@@ -321,9 +319,9 @@ iframe{
     transition: all ease-in-out 0.2s;
 }
 .new-arrival{
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
-    background-color: #E3F7FF;
+    background-color: #EBEAE8;
     margin-bottom: 50px;
     height: 750px;
 }
@@ -402,9 +400,6 @@ iframe{
     height: 450px;
     cursor: pointer;
 }
-.d-flex .btn{
-    border-radius: 50%;
-}
 .best-seller-item{
     background-color: white;
     height: 1100px;
@@ -431,7 +426,49 @@ iframe{
 .end1{
     float: left;
 }
+.nav-item{
+    color: black !important;
+}
+.department{
+    height: 242px;
+    border-radius: 0;
+}
+.department .dropdown-item{
+    line-height: 38px;
+    border-bottom: gainsboro 0.5px solid;
+    width: 278px;
+}
+.tool .row .col .card{
+    background-color: #fafcf9;
+    cursor: pointer;
+    position: relative;
+}
+.tool .row .col .card:hover{
 
+}
+.notify .row .col .card{
+    border: none;
+    background-color: #fafcf9;
+}
+/*Icon Style*/
+.icon i .quick-view-icon{
+    margin-left: -120px;
+}
+.icon i .compare-icon{
+    margin-left: -50px;
+}
+.img-content{
+    margin-left: 80px;
+}
+/*--------*/
+/*Text-Blog*/
+.text-blog{
+    z-index: 1;
+    float: left;
+    margin-left: 480px;
+    margin-top: 180px;
+}
+/*---*/
 /*To-top style*/
 
 .to-top:hover{
