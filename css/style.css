@@ -41,6 +41,7 @@
 .text-content {
     height: 500px;
     padding-top: 50px;
+    width: 940px;
 }
 .image-content-wrapper {
     margin-top: 20px;
@@ -138,9 +139,9 @@ span.current-price {
 .sidebar-right {
     margin-top: 15px;
     border: 1px solid lightgrey;
-    height: 450px;
     top: 20px;
     position: sticky;
+    height: 450px;
 }
 .sidebar-title {
     margin-bottom: 20px;

@@ -1,8 +1,12 @@
 
+@font-face {
+    font-family: Quicksand-light;
+    src: url("../source/static/Quicksand-Light.ttf");
+}
 body{
     font-weight: 400;
     font-family: Roboto, sans-serif;
-    background-color: #fafcf9;
+    background-color: #fbfbfbfb;
 }
 
 /*Header Style*/
@@ -15,12 +19,13 @@ body{
 .collapse{
     line-height: 32px;
     margin-left: 160px;
-    margin-right: 280px;
+    margin-right: 200px;
 }
 form input{
     margin-top: 6px;
     border-right: none;
     border-radius: 0;
+    margin-left: 20px;
 }
 .nav-item{
     margin-right: 30px;
@@ -235,7 +240,7 @@ iframe{
     margin-top: 12px;
 }
 .feedback {
-    margin-top: 50px;
+    margin-top: 20px;
     overflow: hidden;
     margin-left: 45px;
     margin-bottom: 28px;
@@ -438,10 +443,21 @@ iframe{
     border-bottom: gainsboro 0.5px solid;
     width: 278px;
 }
+.tool{
+    margin-left: 180px;
+}
 .tool .row .col .card{
     background-color: #fafcf9;
     cursor: pointer;
     position: relative;
+    border: none;
+    width: 120px;
+}
+.tool .row .col .card .card-body{
+    margin-left: -12px;
+}
+.tool .row .col .card img{
+    width: 65%;
 }
 .tool .row .col .card:hover{
 
@@ -463,10 +479,15 @@ iframe{
 /*--------*/
 /*Text-Blog*/
 .text-blog{
+    font-family: Quicksand-light;
+    width: 400px;
     z-index: 1;
-    float: left;
-    margin-left: 480px;
-    margin-top: 180px;
+    float: right;
+    margin-right: 360px;
+    margin-top: 120px;
+    color: #5b5252;
+    font-size: 18px;
+    font-weight: 150;
 }
 /*---*/
 /*To-top style*/
