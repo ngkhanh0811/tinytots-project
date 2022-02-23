@@ -6,7 +6,7 @@ div#form-container {
     flex-direction: column;
     font-family: 'Times New Roman', sans-serif;
     height: 500px;
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
     0 10px 10px rgba(0, 0, 0, 0.22);
