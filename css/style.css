@@ -57,7 +57,7 @@
 div.img-item {
     position: relative;
     margin-top: 30px;
-    height: 300px;
+    height: 340px;
 }
 .product-img {
     position: relative;
@@ -170,7 +170,6 @@ span.current-price {
     border-right: none;
     background-color: #fafcf9;
 }
-
 .sidebar-list-item a{
     color: #80817f;
     font-weight: 650;

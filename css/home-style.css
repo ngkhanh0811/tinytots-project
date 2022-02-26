@@ -38,10 +38,10 @@ form input{
 }
 .dropdown:hover .dropdown-menu{
     display: block;
-    top: 45px;
+    top: 32px;
 }
 @keyframes In {
-    from {top: 100px} to {top: 46px}
+    from {top: 100px} to {top: 32px}
 }
 .dropdown-menu{
     animation: In 500ms;
@@ -117,12 +117,26 @@ form input{
 }
 
 footer{
-    color: #252525;
     margin-bottom: -100px;
     clear: both;
     background-image: url("../img-source/footer.png");
     padding-top: 15px;
     font-weight: 450;
+}
+.footer-widget{
+    border-left: #577C8A 1px solid;
+}
+.footer-widget h5{
+    margin-right: -10px;
+}
+footer .col{
+    height: 320px;
+    margin-top: 22px;
+}
+footer .col ul li{
+    margin-top: 15px;
+    list-style-type: none;
+    font-size: 15px;
 }
 footer a:hover{
     text-decoration: none;
@@ -344,6 +358,38 @@ iframe{
     height: 430px;
     cursor: pointer;
 }
+.best-seller .card{
+    border: none;
+    background-color: #fbfbfb;
+    width: 320px;
+    margin-left: 30px;
+    height: 360px;
+}
+.best-seller .card:hover{
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.best-seller .row{
+    margin-bottom: 20px;
+}
+.best-seller .card-body{
+    font-weight: 650;
+    position: absolute;
+    margin-top: 230px;
+}
+.best-seller .card-text{
+    font-weight: 450;
+}
+.best-seller .quick-view-wrap a{
+    font-size: 20px;
+}
+.best-seller i.quick-view-icon{
+    margin-left: 20px;
+}
+.best-seller i.compare-icon{
+    padding-left: 24px;
+}
 .click{
     margin-bottom: -60px;
 }
@@ -417,6 +463,40 @@ iframe{
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
+}
+.body .body-sub {
+    margin-bottom: 48px;
+}
+#form-sub {
+    width: 560px;
+    margin: 0 auto;
+    position: relative;
+}
+#input-sub {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #1da1f2;
+    padding: 0 24px;
+    outline: none;
+}
+#btn-sub {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4.2px;
+    background-color: #53c1ec;
+    border-radius: 40px;
+    height: 40px;
+    font-weight: 500;
+    color: white;
+    font-weight: 650;
+    font-family: Quicksand-light;
+    border: #69B3E3 1px solid;
+}
+.div-sub {
+    margin-top: 24px;
+    margin-bottom: 20px;
 }
 .container .align-items-start{
     margin-left: 35px;
