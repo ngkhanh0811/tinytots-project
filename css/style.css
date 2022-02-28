@@ -8,10 +8,7 @@
 .page-top {
     text-align: center;
     align-items: center;
-}
-.page-top{
     top: 10px;
-    position: sticky;
     height: 200px;
     margin-bottom: 10px;
     z-index: 4;
@@ -38,7 +35,9 @@
     padding: 0;
 }
 .text-content {
+    height: 500px;
     padding-top: 50px;
+    width: 940px;
 }
 .image-content-wrapper {
     margin-top: 20px;
@@ -246,5 +245,66 @@ div.img-item:hover i.wishlist-icon {
 }
 a {
     text-decoration: none;
+}
+/*Body Style*/
+.animate{
+    width: 250px;
+    display: none;
+}
+.card:hover .animate{
+    position: absolute;
+    animation: move-to-right 400ms;
+    display: block;
+}
+.card{
+    overflow: hidden;
+}
+.end1{
+    float: left;
+}
+.nav-item{
+    color: black !important;
+}
+.department{
+    height: 242px;
+    border-radius: 0;
+}
+.department .dropdown-item{
+    line-height: 38px;
+    border-bottom: gainsboro 0.5px solid;
+    width: 278px;
+}
+.tool{
+    margin-left: 180px;
+}
+.tool .row .col .card{
+    background-color: #fafcf9;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    width: 120px;
+}
+.tool .row .col .card .card-body{
+    margin-left: -12px;
+}
+.tool .row .col .card img{
+    width: 65%;
+}
+.tool .row .col .card:hover{
+
+}
+.notify .row .col .card{
+    border: none;
+    background-color: #fafcf9;
+}
+/*Icon Style*/
+.icon i .quick-view-icon{
+    margin-left: -120px;
+}
+.icon i .compare-icon{
+    margin-left: -50px;
+}
+.img-content{
+    margin-left: 80px;
 }
 /*--------*/

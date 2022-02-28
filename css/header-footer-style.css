@@ -57,7 +57,7 @@ form input{
     border-bottom: 1px solid #e5e5e5;
     height: 40px;
     color: #fafcf9;
-    background-color: #577C8A;
+    background-color: #293341;
 }
 
 .header-top .ht-right{
@@ -91,6 +91,11 @@ form input{
     padding-bottom: 12px;
     padding-left: 20px;
 }
+.user, .cart{
+    margin-top: 20px;
+    color: #80817f;
+    margin-right: 12px;
+}
 /*Nav*/
 .nav-item{
     width: 110px;
@@ -99,26 +104,30 @@ form input{
 /*---------*/
 
 /*Footer Style*/
-
-.maps{
-    margin-top: 10px;
-    width: 280px;
-    height: 120px;
-    margin-left: -120px;
-}
-
 footer{
-    color: #252525;
     margin-bottom: -100px;
     clear: both;
-    background-image: url("../img-source/footer.png");
+    padding-top: 50px;
+    font-weight: 450;
+    background-color: #f6f6f6;
+    font-family: Roboto, sans-serif;
+    height: 500px;
+    margin-left: 162px;
+}
+footer .col{
+    height: 320px;
+    margin-top: 22px;
+}
+footer .col ul li{
+    color: #707070;
+    line-height: 24px;
+    list-style-type: none;
+    font-size: 15px;
     padding-top: 15px;
-    font-weight: 600;
-    margin-left: 4px;
 }
 footer a:hover{
     text-decoration: none;
-    color: #80817f;
+    color: #577C8A;
     transition: all ease-in-out 0.4s;
 }
 footer a{
@@ -127,11 +136,6 @@ footer a{
 .footer-section {
     bottom: 0;
 }
-.user, .cart{
-    margin-top: 20px;
-    color: #80817f;
-    margin-right: 12px;
-}
 .col-lg-2 h5{
     margin-bottom: 10px;
 }
@@ -139,39 +143,65 @@ footer a{
     padding-left: -40px;
 }
 .footer-section ul li{
-    margin-bottom: 10px;
     margin-right: 20px;
 }
 .footer-section .logofooter{
     margin-left: 60px;
 }
-.footer-left {
-    width: 380px;
-    margin-left: -60px;
-    margin-bottom: 30px;
-    color:white;
-    cursor: pointer;
+.right{
+    border-left: #e3e3e3 1px solid;
 }
-.footer-left ul li:hover{
+.center{
+    width: 414px;
+    border-left: #e3e3e3 1px solid;
+    display: block;
+}
+.left {
+    margin-left: -150px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    width: 552px;
+    display: block;
+}
+.left ul li{
+    margin-top: 0px;
+}
+.head-list{
+    display: block;
+    height: 24px;
+    padding-top: 60px;
+    color: #707070;
+    font-size: 13px;
+    font-weight: 700;
+}
+.left ul li:hover{
     color: #577C8A;
     transition: all ease-in-out 0.4s;
 }
+.left .slogan{
+    color: #353535;
+    font-size: 16px;
+    font-weight: 650px;
+    line-height: 24px;
+    height: 24px;
+    margin: 13px 0 20px 0;
+}
 .footer-section .newslatter-item{
-    margin-left: -120px;
+    margin-left: -160px;
 }
 
-.footer-left ul li {
+.left ul li {
     list-style: none;
     color: #80817f;
     font-size: 16px;
     line-height: 30px;
 }
 
-.footer-left .footer-social {
+.left .footer-social {
     padding-top: 10px;
 }
 
-.footer-left .footer-social a {
+.left .footer-social a {
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -185,11 +215,11 @@ footer a{
     z-index: 1;
 }
 
-.footer-left .footer-social a:hover:before {
+.left .footer-social a:hover:before {
     opacity: 1;
 }
 
-.footer-left .footer-social a:before {
+.left .footer-social a:before {
     position: absolute;
     left: 0;
     top: 0;
@@ -205,29 +235,10 @@ footer a{
     transition: 0.3s;
     z-index: -1;
 }
-.footer-widget {
-    margin-left: -120px;
-    margin-bottom: 30px;
-}
 .logofooter {
     margin-left: 250px;
 }
-.newslatter-item .btn{
-    border-radius: 20px;
-    height: 35px;
-    color: white;
-    background-color: #80817f;
-    border: #80817f 1px solid;
-}
-.newslatter-item .btn:hover{
-    background-color: #577C8A;
-    border: #577C8A;
-}
-iframe{
-    width: 150px;
-    height: 120px;
-}
-
+/*------------*/
 /*To-top style*/
 
 .to-top:hover{
