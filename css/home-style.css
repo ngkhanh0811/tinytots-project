@@ -185,7 +185,7 @@ footer a{
 .left .slogan{
     color: #353535;
     font-size: 16px;
-    font-weight: 650px;
+    font-weight: 650;
     line-height: 24px;
     height: 24px;
     margin: 13px 0 20px 0;
@@ -423,12 +423,9 @@ footer a{
     margin-top: 20px;
     margin-left: 675px;
 }
-.new-arrival .card:hover{
-    box-shadow: 0.5rem 1rem rgba($black, .15);
-}
 .new-arrival .card-body{
     border-top: black 1px solid;
-    background-color: #white;
+    background-color: white;
     text-align: left;
     margin-left: -12px;
 }
@@ -592,11 +589,12 @@ footer a{
 /*--------*/
 /*Text-Blog*/
 .text-blog{
+    padding-top: 100px;
     font-family: Quicksand-light;
     width: 400px;
     z-index: 1;
     float: right;
-    margin-right: 300px;
+    margin-right: 340px;
     color: #5b5252;
     font-size: 18px;
     font-weight: 150;
@@ -621,7 +619,6 @@ footer a{
     z-index: 99;
 }
 .to-top:before{
-    background-image: url("../img-source/arrow.png");
     position:absolute;
     top:0;
     left:50%;
